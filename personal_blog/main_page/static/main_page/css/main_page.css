@@ -3,10 +3,6 @@ body {
     height: 1000px;
 }
 
-img {
-    width: 1%;
-}
-
 .container-fluid {
     width: 10%;
 }
@@ -21,6 +17,7 @@ img {
 width: 100%;
 position: fixed;
 bottom: 40px;
+
 
 
 }
