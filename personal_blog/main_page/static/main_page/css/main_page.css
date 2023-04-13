@@ -1,7 +1,33 @@
 body {
-    background: #DA70D6;
+    background: #DA70D5;
+    height: 1000px;
 }
 
 img {
     width: 1%;
+}
+
+.container-fluid {
+    width: 10%;
+}
+
+#govno {
+    background-color: #000000;
+}
+
+
+
+.social_images{
+width: 100%;
+position: fixed;
+bottom: 40px;
+
+
+}
+
+#fb, #gh, #li, #tg {
+width: 5%;
+height: 5%;
+margin: 15px;
+
 }
