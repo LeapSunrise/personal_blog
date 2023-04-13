@@ -11,13 +11,11 @@
      <link rel="stylesheet" href="{% static 'main_page/css/main_page.css' %}" type="text/css">
 </head>
 <body>
-    <ul>
-        <li><a href="https://www.facebook.com/rostyslavmelnyk49/"><img src="{% static 'main_page/media/Facebook_Logo_(2019).png' %}"></a></li>
-        <li><a href="https://github.com/LeapSunrise"><img src="{% static 'main_page/media/github-mark-white.png' %}"></a></li>
-        <li><a class="fbimg" href="https://www.linkedin.com/in/rostyslav-melnyk/"><img src="{% static 'main_page/media/linkedin-logo-png-1853.png' %}"></a></li>
-        <li><a class="fbimg" href="https://t.me/leap_sunrise"><img src="{% static 'main_page/media/telegram-logo-944.png' %}"></a></li>
-    </ul>
-
+    <s>{% include 'main_page/ticker_widget.html' %}</s>
+    <a href="https://www.facebook.com/rostyslavmelnyk49/"><img src="{% static 'main_page/media/Facebook_Logo_(2019).png' %}"></a>
+<a href="https://github.com/LeapSunrise"><img src="{% static 'main_page/media/github-mark-white.png' %}"></a>
+<a class="fbimg" href="https://www.linkedin.com/in/rostyslav-melnyk/"><img src="{% static 'main_page/media/linkedin-logo-png-1853.png' %}"></a>
+<a class="fbimg" href="https://t.me/leap_sunrise"><img src="{% static 'main_page/media/telegram-logo-944.png' %}"></a>
 
 </body>
 </html>
