@@ -20,7 +20,13 @@ height: 1300px;
     width: 100%;
   }
 
-  75% {
+  25% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  50% {
     font-size: 300%;
     margin-left: 25%;
     width: 150%;
