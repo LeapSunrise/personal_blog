@@ -1,0 +1,13 @@
+.mainbg {
+overflow: hidden;
+position: fixed;
+}
+
+.container {
+top: 0;
+position: absolute;
+}
+
+.form-control {
+width: 10%;
+}
